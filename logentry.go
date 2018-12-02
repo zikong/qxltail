@@ -103,17 +103,13 @@ func (e *Entry) print(w io.Writer) {
 
 	cl.Fprintf(w, "%s %s: %s", e.ts, lvl, e.message)
 
-	if len(e.caller) > 0 {
-		color.New(color.Faint, color.Italic).Fprint(w, " @ ", e.caller)
-	}
-
 	if len(e.fields) > 0 {
 		keys := make([]string, 0, len(e.fields))
 		for key := range e.fields {
 			keys = append(keys, key)
 		}
 		sort.Strings(keys)
-		fmt.Fprint(w, "{")
+		fmt.Fprint(w, " {")
 		for _, k := range keys {
 			v := e.fields[k]
 
@@ -129,7 +125,11 @@ func (e *Entry) print(w io.Writer) {
 				}
 			}
 		}
-		fmt.Fprint(w, "}")
+		fmt.Fprint(w, "} ")
+	}
+
+	if len(e.caller) > 0 {
+		color.New(color.Faint, color.Italic).Fprint(w, " @ ", e.caller)
 	}
 
 	if len(e.trace) > 0 {
