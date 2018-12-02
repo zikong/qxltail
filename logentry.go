@@ -113,11 +113,11 @@ func (e *Entry) print(w io.Writer) {
 			keys = append(keys, key)
 		}
 		sort.Strings(keys)
-
+		fmt.Fprint(w, "{")
 		for _, k := range keys {
 			v := e.fields[k]
 
-			fmt.Fprint(w, "\n")
+			fmt.Fprint(w, " ")
 			cl.Fprint(w, k, ":")
 
 			switch v := v.(type) {
@@ -129,7 +129,7 @@ func (e *Entry) print(w io.Writer) {
 				}
 			}
 		}
-		fmt.Fprint(w, "\n")
+		fmt.Fprint(w, "}")
 	}
 
 	if len(e.trace) > 0 {
