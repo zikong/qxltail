@@ -79,7 +79,7 @@ func (e *Entry) print(w io.Writer) {
 	var lvl string
 	switch e.level {
 	case "debug":
-		cl = color.New(color.Bold, color.FgCyan)
+		cl = color.New(color.Bold, color.FgBlue)
 		lvl = "[DEBG]"
 	case "info":
 		cl = color.New(color.Bold, color.FgGreen)
