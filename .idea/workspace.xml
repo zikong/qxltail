@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="efa37366-d46c-4917-a417-8f7a39ab3bc5" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/logentry.go" beforeDir="false" afterPath="$PROJECT_DIR$/logentry.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/main.go" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -12,11 +13,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/logentry.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="816">
-              <caret line="115" column="34" lean-forward="true" selection-start-line="115" selection-start-column="34" selection-end-line="115" selection-end-column="34" />
+            <state relative-caret-position="2310">
+              <caret line="119" column="34" lean-forward="true" selection-start-line="119" selection-start-column="34" selection-end-line="119" selection-end-column="34" />
             </state>
           </provider>
         </entry>
@@ -30,11 +31,14 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/main.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="504">
-              <caret line="32" column="38" selection-start-line="32" selection-start-column="38" selection-end-line="32" selection-end-column="38" />
+            <state relative-caret-position="391">
+              <caret line="42" column="5" selection-start-line="42" selection-start-column="5" selection-end-line="42" selection-end-column="5" />
+              <folding>
+                <element signature="e#14#100#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -49,12 +53,13 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/logentry.go" />
+        <option value="$PROJECT_DIR$/main.go" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="914" />
-    <option name="y" value="45" />
+    <option name="x" value="717" />
+    <option name="y" value="23" />
     <option name="width" value="1678" />
     <option name="height" value="1417" />
   </component>
@@ -107,16 +112,16 @@
     </option>
   </component>
   <component name="ToolWindowManager">
-    <frame x="914" y="45" width="1678" height="1417" extended-state="0" />
+    <frame x="717" y="23" width="1678" height="1417" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" />
       <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Terminal" />
+      <window_info active="true" anchor="bottom" id="Terminal" visible="true" weight="0.32981133" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
@@ -142,13 +147,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/main.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="504">
-          <caret line="32" column="38" selection-start-line="32" selection-start-column="38" selection-end-line="32" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/vendor/github.com/fatih/color/color.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="426">
@@ -158,8 +156,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/logentry.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="816">
-          <caret line="115" column="34" lean-forward="true" selection-start-line="115" selection-start-column="34" selection-end-line="115" selection-end-column="34" />
+        <state relative-caret-position="2310">
+          <caret line="119" column="34" lean-forward="true" selection-start-line="119" selection-start-column="34" selection-end-line="119" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="42" column="5" selection-start-line="42" selection-start-column="5" selection-end-line="42" selection-end-column="5" />
+          <folding>
+            <element signature="e#14#100#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
