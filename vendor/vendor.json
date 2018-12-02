@@ -13,6 +13,12 @@
 			"path": "github.com/fatih/color",
 			"revision": "3f9d52f7176a6927daacff70a3e8d1dc2025c53e",
 			"revisionTime": "2018-10-10T23:13:11Z"
+		},
+		{
+			"checksumSHA1": "SEnjvwVyfuU2xBaOfXfwPD5MZqk=",
+			"path": "github.com/mattn/go-colorable",
+			"revision": "efa589957cd060542a26d2dd7832fd6a6c6c3ade",
+			"revisionTime": "2018-03-10T13:32:14Z"
 		}
 	],
 	"rootPath": "qxltail"
