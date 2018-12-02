@@ -119,10 +119,10 @@ func (e *Entry) print(w io.Writer) {
 
 			switch v := v.(type) {
 			case string:
-				color.New(color.Faint).Fprint(w, " ", v)
+				cl.Fprint(w, " ", v)
 			case []string:
 				for _, s := range v {
-					color.New(color.Faint).Fprint(w, "\n", s)
+					cl.Fprint(w, "\n", s)
 				}
 			}
 		}
