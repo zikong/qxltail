@@ -1,0 +1,19 @@
+{
+	"comment": "",
+	"ignore": "test",
+	"package": [
+		{
+			"checksumSHA1": "6RARKU4jxSohYzFRc0ESC3fwbIA=",
+			"path": "github.com/buger/jsonparser",
+			"revision": "bf1c66bbce23153d89b23f8960071a680dbef54b",
+			"revisionTime": "2018-11-15T19:39:47Z"
+		},
+		{
+			"checksumSHA1": "BxH9xJUqczhpL57gfKZe2/VlBHY=",
+			"path": "github.com/fatih/color",
+			"revision": "3f9d52f7176a6927daacff70a3e8d1dc2025c53e",
+			"revisionTime": "2018-10-10T23:13:11Z"
+		}
+	],
+	"rootPath": "qxltail"
+}
